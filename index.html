@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heidi's Asfaar | هايدي أسفار</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- خط Cairo المميز -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; background-color: #0b0b0b; color: #f3f4f6; }
+        .gold-gradient { background: linear-gradient(135deg, #d4af37 0%, #aa820a 100%); }
+        .gold-border { border-color: #d4af37; }
+        .gold-text { color: #d4af37; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-10 px-4">
 
+    <!-- الهيدر واللوجو -->
+    <div class="w-full max-w-md text-center mb-8">
+        <div class="w-24 h-24 mx-auto mb-4 rounded-full gold-gradient p-1 shadow-lg">
+            <div class="w-full h-full bg-[#141414] rounded-full flex items-center justify-center">
+                <span class="text-3xl font-bold gold-text">HD</span>
+            </div>
+        </div>
+        <h1 class="text-2xl font-bold text-white mb-2">Heidi's Asfaar</h1>
+        <p class="text-sm text-gray-400">نتعلم ونستفيد تحت نور شريعتنا وعلمنا</p>
+    </div>
+
+    <!-- نبذة تعريفية مربعة -->
+    <div class="w-full max-w-md bg-[#141414] border gold-border rounded-2xl p-5 mb-6 shadow-xl text-center">
+        <h3 class="gold-text font-bold mb-2">عن المنصة والمشروع</h3>
+        <p class="text-sm text-gray-300">
+            مرحباً بكِ في مساحتي الشخصية (هدفنا نشر ما ينفع الامة).
+        </p>
+    </div>
+
+    <!-- روابط الحسابات (القناة، المدونة، التواصل) -->
+    <div class="w-full max-w-md space-y-4 mb-8">
+        <a href="https://youtube.com/@lightofrevelation_56?si=tXdK1PvlAKudElwl" target="_blank" class="w-full bg-[#141414] border gold-border text-white p-4 rounded-xl flex items-center justify-between hover:bg-[#1f1f1f] transition shadow-md">
+            <span class="flex items-center gap-3"><i class="fa-brands fa-youtube gold-text text-xl"></i> قناتي على اليوتيوب / بودكاست أسفار</span>
+            <i class="fa-solid fa-arrow-left text-xs gold-text"></i>
+        </a>
+
+        <a href="https://revelation1097.blogspot.com/?m=1" target="_blank" class="w-full bg-[#141414] border gold-border text-white p-4 rounded-xl flex items-center justify-between hover:bg-[#1f1f1f] transition shadow-md">
+            <span class="flex items-center gap-3"><i class="fa-solid fa-blog gold-text text-xl"></i> مدونتي على بلوجر / سبستاك</span>
+            <i class="fa-solid fa-arrow-left text-xs gold-text"></i>
+        </a>
+
+        <a href="mailto:بريدك_الالكتروني_هنا" class="w-full bg-[#141414] border gold-border text-white p-4 rounded-xl flex items-center justify-between hover:bg-[#1f1f1f] transition shadow-md">
+            <span class="flex items-center gap-3"><i class="fa-solid fa-envelope gold-text text-xl"></i> التواصل عبر البريد الإلكتروني</span>
+            <i class="fa-solid fa-arrow-left text-xs gold-text"></i>
+        </a>
+    </div>
+
+    <!-- واجهة مكتبة المصادر والأبحاث (Notion & Drive) -->
+    <div class="w-full max-w-md bg-[#141414] border gold-border rounded-2xl p-5 mb-8 shadow-xl">
+        <h3 class="gold-text font-bold mb-3 text-center"><i class="fa-solid fa-book-open"></i> مكتبة البحوث والكتب</h3>
+        <p class="text-xs text-gray-400 text-center mb-4">جداول بحوث، كتب إلكترونية، ومراجع مفيدة:</p>
+        
+        <div class="space-y-3">
+            <a href="https://app.notion.com/p/41cd9e6069d18032bb78edbcd162f2bb?source=copy_link" target="_blank" class="block bg-[#1f1f1f] p-3 rounded-xl border border-gray-800 hover:border-amber-500 transition">
+                <span class="text-sm font-bold text-white block mb-1">📚 صفحة الأبحاث (Notion)</span>
+                <span class="text-xs text-gray-400">اضغط للاطلاع على الجداول والملخصات المنظمة.</span>
+            </a>
+
+            <a href="https://docs.google.com/document/d/1GktyWjQbAOLMAfo1mvk3EclprT8vtVGRITun-lzIyPw/edit?usp=drivesdk" target="_blank" class="block bg-[#1f1f1f] p-3 rounded-xl border border-gray-800 hover:border-amber-500 transition">
+                <span class="text-sm font-bold text-white block mb-1">📂 مكتبة الكتب (Google Drive)</span>
+                <span class="text-xs text-gray-400">تحميل واستعراض الكتب والملفات الإلكترونية.</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- نموذج استقبال الرسائل الحقيقي (متصل بالبريد) -->
+    <div class="w-full max-w-md bg-[#141414] border gold-border rounded-2xl p-5 shadow-xl mb-10">
+        <h3 class="gold-text font-bold text-center mb-2">مساحة أسئلتكم وآرائكم</h3>
+        <p class="text-xs text-gray-400 text-center mb-4">أرسل سؤالك أو رأيك وسيصل مباشرة إلى بريدي الإلكتروني</p>
+        
+        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+            <!-- ضعي الكود الطويل الذي نسختيه من Web3Forms مكان <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="5f84b141-b8b4-4467-8b26-9158e9bd606d">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+        </form> -->
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+            <div>
+                <label class="block text-xs text-gray-400 mb-1">الاسم المستعار (اختياري)</label>
+                <input type="text" name="name" class="w-full bg-[#0b0b0b] border border-gray-800 rounded-xl p-3 text-sm text-white focus:outline-none focus:border-amber-500">
+            </div>
+
+            <div>
+                <label class="block text-xs text-gray-400 mb-1">نص المشاركة أو السؤال</label>
+                <textarea name="message" rows="4" required placeholder="اكتب سؤالك أو رأيك باحثاً عن الفائدة..." class="w-full bg-[#0b0b0b] border border-gray-800 rounded-xl p-3 text-sm text-white focus:outline-none focus:border-amber-500"></textarea>
+            </div>
+
+            <button type="submit" class="w-full gold-gradient text-black font-bold py-3 rounded-xl hover:opacity-90 transition shadow-lg">
+                إرسال الرسالة
+            </button>
+        </form>
+    </div>
+
+    <footer class="text-xs text-gray-500 text-center">
+        جميع الحقوق محفوظة © Heidi's Asfaar 2026
+    </footer>
+
+</body>
+</html>
